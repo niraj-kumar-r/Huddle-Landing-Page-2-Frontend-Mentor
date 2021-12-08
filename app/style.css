@@ -18,6 +18,7 @@ body{
 
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
+    color: var(--neutral-dark);
     /* 400,700 */
     /* font-family: 'Poppins', sans-serif; */
     /* 600 */
@@ -31,7 +32,7 @@ body{
 
     justify-content: space-between;
     align-items: center;
-    background-color: var(--neutral-light);
+    /* background-color: var(--neutral-light); */
 
     padding: clamp(1rem,4vw,2rem) clamp(1rem, 5.6vw, 5rem) 0;
 }
@@ -53,4 +54,14 @@ body{
     border-radius: 10em;
 
     box-shadow: 0 0.125em 0.8em 0em hsl(192, 26%, 85%);
+}
+
+.top-card{
+    margin-top: 0;
+    background-image: url(../images/bg-hero-desktop.svg);
+    background-color: var(--neutral-light);
+}
+
+.main-title{
+    /* margin-top: 0; */
 }
