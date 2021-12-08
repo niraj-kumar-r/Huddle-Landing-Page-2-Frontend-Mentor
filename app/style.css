@@ -15,4 +15,15 @@
 
 body{
     font-size: 1.125rem;
+
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    /* 400,700 */
+    /* font-family: 'Poppins', sans-serif; */
+    /* 600 */
+}
+
+.huddle-logo{
+    background-color: red;
+    width: clamp(6.7rem, 21%, 13.5rem);
 }
