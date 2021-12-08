@@ -21,9 +21,36 @@ body{
     /* 400,700 */
     /* font-family: 'Poppins', sans-serif; */
     /* 600 */
+
+    margin: 0;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--neutral-light);
+
+    padding: 1rem 1rem 0;
 }
 
 .huddle-logo{
-    background-color: red;
-    width: clamp(6.7rem, 21%, 13.5rem);
+    /* background-color: red; */
+    width: clamp(6.7rem, 28%, 13.5rem);
+}
+
+.try-it-free-button{
+    font-size: 0.6rem;
+    color: var(--neutral-dark);
+    background-color: white;
+    /* font-family: 'Poppins', sans-serif; 
+    font-weight: 600; */
+    font-weight: 700;
+    text-align: center;
+    padding: 0.5em 2.5em;
+    border-radius: 10em;
+
+    box-shadow: 0 0.125em 0.8em 0em hsl(192, 26%, 85%);
 }
