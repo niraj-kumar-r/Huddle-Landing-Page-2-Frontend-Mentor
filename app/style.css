@@ -3,3 +3,16 @@
 *::before{
     box-sizing: border-box;
 }
+
+:root{
+    --primary: hsl(322, 100%, 66%);
+
+    --neutral-light: hsl(193, 100%, 96%);
+    --neutral-medium: hsl(208, 11%, 55%);
+    --neutral-dark: hsl(192, 100%, 9%);
+
+}
+
+body{
+    font-size: 1.125rem;
+}
