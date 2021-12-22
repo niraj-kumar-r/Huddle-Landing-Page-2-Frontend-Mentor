@@ -28,7 +28,9 @@ body{
 
 .top-card{
     margin-top: 0;
+    padding-bottom: 3rem;
     background-image: url(../images/bg-hero-desktop.svg);
+    background-position: center;
     background-color: var(--neutral-light);
 
     display: grid;
@@ -128,6 +130,7 @@ body{
 }
 
 .sub-card-container{
+    margin: 4rem auto 4rem;
     display: grid;
     text-align: center;
     justify-content: center;
@@ -154,9 +157,13 @@ body{
 }
 
 .sub-card-title{
-    font-size: 1.5rem;
     color: var(--neutral-dark);
     font-family: 'Poppins', sans-serif; 
     font-weight: 600;
-    font-size: 1.5rem;
+    font-size: 1.125rem;
+}
+
+.sub-card-para{
+    color: var(--neutral-medium);
+    font-size: 0.9rem;
 }
