@@ -72,7 +72,18 @@ body{
     padding: 0.5em 2.5em;
     border-radius: 10em;
 
-    box-shadow: 0 0.1em 0.7em 0em hsl(194, 41%, 90%);
+    /* box-shadow: 0 0.1em 0.7em 0em hsl(194, 41%, 90%); */
+    /* box-shadow:  20px 20px 60px #d9d9d9,
+             -20px -20px 60px #ffffff; */
+    box-shadow:
+        1.2px 0.6px 2.7px rgba(0, 0, 0, 0.012),
+        3px 1.5px 6.9px rgba(0, 0, 0, 0.018),
+        6.2px 3px 14.2px rgba(0, 0, 0, 0.022),
+        12.8px 6.2px 29.2px rgba(0, 0, 0, 0.028),
+        35px 17px 80px rgba(0, 0, 0, 0.04)
+        ;
+
+           
 }
 
 
