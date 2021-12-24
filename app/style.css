@@ -156,3 +156,43 @@ body {
   color: var(--neutral-medium);
   font-size: 0.9rem;
 }
+
+footer{
+    margin-top: 15rem;
+    background-color: var(--neutral-dark);
+    color: var(--neutral-light);
+
+    position: relative;
+}
+
+.footer-card{
+    background-color: white;
+    width: clamp(15rem,94% , 50rem);
+    /* max-width: 50rem; */
+    margin: auto;
+    padding: 3rem 1rem 3rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+    position: absolute;
+    left: 50%;
+    transform: 
+      translateX(-50%)
+      translateY(-70%);
+    /* bottom: 7rem; */
+
+}
+
+.footer-card-title{
+    width: 90%;
+    margin: 0 auto 2rem;
+    padding: 0;
+    font-size: 1.25rem;
+}
+
+.footer-card-button{
+    color: white;
+}
