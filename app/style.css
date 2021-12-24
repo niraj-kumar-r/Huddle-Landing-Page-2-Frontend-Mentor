@@ -221,3 +221,18 @@ footer{
   display: grid;
   row-gap: 1.5rem;
 }
+
+.social-icon-container{
+  display: grid;
+  grid-template-areas: "area area area";
+  gap: 0.75rem;
+  justify-content: center;
+}
+
+.social-icon{
+  color: var(--neutral-light);
+  width: 2rem;
+  border: 0.1rem solid var(--neutral-light);
+  border-radius: 50%;
+  padding: 0.3em;
+}
