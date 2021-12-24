@@ -159,6 +159,7 @@ body {
 
 footer{
     margin-top: 15rem;
+    padding: 5%;
     background-color: var(--neutral-dark);
     color: var(--neutral-light);
 
@@ -195,4 +196,13 @@ footer{
 
 .footer-card-button{
     color: white;
+}
+
+.contact-info-card{
+  /* margin-top: 30rem; */
+  padding-top: 9rem;
+}
+
+.footer-logo{
+  fill: var(--neutral-light);
 }
