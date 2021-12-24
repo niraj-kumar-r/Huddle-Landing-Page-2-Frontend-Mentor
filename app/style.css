@@ -110,13 +110,15 @@ body {
   color: var(--neutral-light);
   font-size: 0.75rem;
   width: 15rem;
+  margin: auto;
   padding: 0.75em 2em;
   border-radius: 2em;
   font-weight: 700;
 }
 
 .illustration-mockup-svg {
-  width: 18.75rem;
+  width: 80vw;
+  min-width: 18.75rem;
   height: auto;
   margin-top: 3rem;
 }
@@ -250,8 +252,24 @@ footer {
 }
 
 @media screen and (min-width: 50rem) {
+  .root{
+    font-size: 48px;
+  }
+
   .sub-card {
     display: grid;
     grid-template-columns: 1fr 1fr;
+  }
+
+  .top-grid{
+    text-align: left;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .illustration-mockup-svg{
+    width: 48vw;
+    grid-row-start: 2;
+    grid-row: span 5;
   }
 }
