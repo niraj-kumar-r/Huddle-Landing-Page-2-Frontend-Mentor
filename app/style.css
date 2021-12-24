@@ -201,8 +201,17 @@ footer{
 .contact-info-card{
   /* margin-top: 30rem; */
   padding-top: 9rem;
+  max-width: 26rem;
+
+  display: grid;
+  row-gap: 2rem;
+  grid-template-columns: 2.5rem 1fr;
 }
 
 .footer-logo{
   fill: var(--neutral-light);
+  width: clamp(10.625rem, 45%, 15.25rem);
+
+  grid-column: span 2;
+  
 }
