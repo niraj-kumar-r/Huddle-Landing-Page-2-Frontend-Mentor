@@ -215,3 +215,9 @@ footer{
   grid-column: span 2;
   
 }
+
+.footer-nav{
+  margin-top: 4.5rem;
+  display: grid;
+  row-gap: 1.5rem;
+}
