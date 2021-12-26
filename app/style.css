@@ -80,7 +80,11 @@ body {
     3px 1.5px 6.9px rgba(0, 0, 0, 0.018), 6.2px 3px 14.2px rgba(0, 0, 0, 0.022),
     12.8px 6.2px 29.2px rgba(0, 0, 0, 0.028), 35px 17px 80px rgba(0, 0, 0, 0.04);
 }
-
+.try-it-free-button:hover,
+.try-it-free-button:focus{
+  cursor: pointer;
+  color: var(--neutral-medium);
+}
 .main-title {
   color: var(--neutral-dark);
   font-family: "Poppins", sans-serif;
@@ -103,6 +107,12 @@ body {
 
 .main-grid-button {
   grid-area: button;
+}
+
+.main-grid-button:focus,
+.main-grid-button:hover{
+  cursor: pointer;
+  opacity: 0.7;
 }
 
 .pink-button {
@@ -218,8 +228,13 @@ footer {
   justify-self: center;
 }
 
+.footer-card-button:hover,
+.footer-card-button:focus{
+  cursor: pointer;
+  opacity: 0.7;
+}
+
 .contact-info-card {
-  /* margin-top: 30rem; */
   padding-top: 9rem;
   max-width: 26rem;
 
@@ -241,6 +256,12 @@ footer {
   row-gap: 1.5rem;
 }
 
+.footer-nav>article:hover,
+.footer-nav>article:focus{
+  cursor: pointer;
+  text-decoration: underline;
+}
+
 .social-icon-container {
   margin-top: 4rem;
   display: grid;
@@ -255,6 +276,13 @@ footer {
   border: 0.1rem solid var(--neutral-light);
   border-radius: 50%;
   padding: 0.3em;
+}
+
+.social-icon:hover,
+.social-icon:focus{
+  cursor: pointer;
+  color: var(--primary);
+  border: 0.1rem solid var(--primary);
 }
 
 .copyright-div {
