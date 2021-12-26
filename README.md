@@ -62,6 +62,6 @@ Users should be able to:
 ## Author
 
 <!-- - Website - [Add your name here](https://www.your-site.com) -->
-- Frontend Mentor - [@niraj-kuamr-r](https://www.frontendmentor.io/profile/niraj-kumar-r)
+- Frontend Mentor - [@niraj-kumar-r](https://www.frontendmentor.io/profile/niraj-kumar-r)
 - Twitter - [@niraj_kumar_r](https://www.twitter.com/niraj_kumar_r)
 
