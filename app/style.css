@@ -108,6 +108,7 @@ body {
 .pink-button {
   background-color: var(--primary);
   color: var(--neutral-light);
+  text-align: center;
   font-size: 0.75rem;
   width: 15rem;
   margin: auto;
@@ -144,6 +145,7 @@ body {
 
 .sub-card-svg {
   width: 80%;
+  margin: auto;
   /* background-color: red; */
 }
 
@@ -203,7 +205,17 @@ footer {
 }
 
 .footer-card-button {
+  background-color: var(--primary);
   color: white;
+  text-align: center;
+  font-size: 0.75rem;
+  width: 15rem;
+  margin: auto;
+  padding: 0.75em 2em;
+  border-radius: 2em;
+  font-weight: 700;
+  align-self: center;
+  justify-self: center;
 }
 
 .contact-info-card {
@@ -252,24 +264,88 @@ footer {
 }
 
 @media screen and (min-width: 50rem) {
-  .root{
-    font-size: 48px;
+  html{
+    font-size: 20px;
   }
 
-  .sub-card {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+  .main-title{
+    font-size: 2rem;
   }
-
+  
   .top-grid{
     text-align: left;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1.25fr;
+    align-items: center;
+    justify-content: center;
   }
 
   .illustration-mockup-svg{
     width: 48vw;
-    grid-row-start: 2;
-    grid-row: span 5;
+    grid-column-start: 2;
+    /* grid-row: span 5; */
   }
+  .pink-button{
+    margin-left: 3rem;
+    padding: 1.25em 1em;
+  }
+
+  .sub-card {
+    margin-left: clamp(1.5rem, 8vw ,7rem);
+    margin-right: clamp(1.5rem, 8vw ,7rem);
+    padding: 3.5rem 2rem 3.5rem;
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    gap: 1rem;
+  }
+
+  .sub-card>div{
+    padding-left: clamp(1.5rem, 6vw ,5rem);
+  }
+
+  .sub-card:nth-child(odd)>div{
+    grid-column-start: 1;
+    grid-row-start: 1;
+  }
+
+  .sub-card:nth-child(even){
+    grid-template-columns: 1fr 1.5fr;
+  }
+
+  .sub-card-title{
+    font-size: 1.5rem;
+  }
+
+  .footer-card-button{
+    width: 20em;
+    padding: 1.25em 2em;
+    font-size: 1rem;
+  }
+
+  footer{
+    display: grid;
+    grid-template-columns: repeat(3,auto);  
+  }
+
+  .footer-nav{
+    grid-template-columns: 1fr 1fr;
+    row-gap: 0;
+    padding-top: 8.5rem;
+  }
+
+  .social-icon-container{
+    padding-top: 8.5rem;
+  }
+
+  .copyright-div{
+    grid-area: 2/3;
+  }
+
+  .attribution{
+    grid-area: 3/3;
+  }
+
 }
